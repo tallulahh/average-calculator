@@ -1,0 +1,37 @@
+body {
+  background-color: #03011f;
+  font-family: "Source Sans Pro";
+  color: #6cacc5;
+  text-align: center;
+}
+
+.input {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  left:0;right:0;
+}
+
+.input input {
+  width: 100px;
+  margin: 20px;
+  background: lightGray;
+}
+
+button {
+  background: rgba(42,50,113, .28);
+  border: 2px solid #6cacc5;
+  color: inherit;
+  font-family: inherit;
+  font-size: 18px;
+  padding: 5px 10px;
+  cursor:pointer;
+}
+
+button:hover {
+  background: rgba(42,50,113, .5);
+}
